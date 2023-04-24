@@ -7,15 +7,17 @@
 int main(void)
 {
 	int n = 97;
-	int m = 65;
+	int y = 65;
 
 	while (n <= 122)
 	{
 		putchar(n);
+		n++;
 	}
-	while (m <= 90)
+	while (y <= 90)
 	{
-		putchar(m);
+		putchar(y);
+		y++;
 	}
 	putchar('\n');
 	return (0);
