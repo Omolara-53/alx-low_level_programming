@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_numbers - Prints 0 to 9
@@ -6,11 +7,13 @@
 
 void print_numbers(void)
 {
-	char c;
+	int i = 48;
 
-	for (c = '0'; c <= '9'; c++)
+	while (i <= 57)
 	{
-		_putchar(0);
+		_putchar((char) i);
+i++;
 	}
-	_putchar('\n');
+		_putchar((char)'\n');
 }
+
