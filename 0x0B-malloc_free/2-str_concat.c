@@ -1,10 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * str_concat - returns a pointer to a newly allocated space in memory,
- * which contains a copy of the string given as a parameter.
- * @s1: input one to concat
- * @s2: input two to concat
+ * str_concat - concatenates two strings.
+ * @s1: input one to concatenate
+ * @s2: input two to concatenate
  * Return: concat of s1 and s2
  */
 char *str_concat(char *s1, char *s2)
