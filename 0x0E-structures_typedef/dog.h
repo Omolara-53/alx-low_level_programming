@@ -3,11 +3,11 @@
 
 /**
  * struct dog - a dog's basic info
- * @name: name of the dog
- * @age: age of the dog
- * @owner: The dog's owner name
+ * @name: Dog's name
+ * @age: Dog's age
+ * @owner: owner's name
  *
- * Description: Define a new type struct dog with name, age and owner
+ * Description: a new type struct dog with dog's name, age and owner's name
  */
 struct dog
 {
